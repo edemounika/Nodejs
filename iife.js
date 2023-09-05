@@ -1,11 +1,11 @@
-(function (){
+(function (message){ // adding the arguments for two modules
     const superHero = "batman";
-console.log(superHero);
+console.log(message, superHero);
 
-})();
+})("hello");
 
-(function (){
+(function (message){
     const superHero = "superman";
-console.log(superHero);
+console.log(message,superHero);
 
-})();
+})("hey");
