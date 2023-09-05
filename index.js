@@ -9,11 +9,23 @@
 // module Wrapper
 // require("./batman");
 // require("./superman")
- const superHero =require("./super-hero")
- console.log(superHero.getName());
- superHero.setName("Superman");
- console.log(superHero.getName());
+
+// module caching
+//  const superHero =require("./super-hero")
+//  console.log(superHero.getName());
+//  superHero.setName("Superman");
+//  console.log(superHero.getName());
 
 
- const newSuperHero = require("./super-hero");
- console.log(newSuperHero.getName());
+//  const newSuperHero = require("./super-hero");
+//  console.log(newSuperHero.getName());
+
+ // Import Export patterns
+//  const add = require ("./math");
+//  console.log(add(2,3));
+// patteren3 
+
+ const math = require ("./math");
+ console.log(math.add(2,3));
+ console.log(math.subtract(2,3));
+
