@@ -6,5 +6,14 @@
 // const sum2 =addition(2,3);
 // console.log(sum);
 // console.log(sum2);
-require("./batman");
-require("./superman")
+// module Wrapper
+// require("./batman");
+// require("./superman")
+ const superHero =require("./super-hero")
+ console.log(superHero.getName());
+ superHero.setName("Superman");
+ console.log(superHero.getName());
+
+
+ const newSuperHero = require("./super-hero");
+ console.log(newSuperHero.getName());
